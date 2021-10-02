@@ -11,6 +11,8 @@ myImage.onclick = function () {
 
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h2');
+let jazzRoster = document.querySelector('h3');
+
 
 function Instruct() {
     alert("Click the logo to change the logo, Click 'Change Name' and type your name");
@@ -23,7 +25,7 @@ function SetUserName() {
     } 
     else {
         localStorage.setItem('name', myName);
-        myHeading.textContent = 'Welcome, ' + myName;
+        myHeading.innerHTML = 'Welcome, ' + myName;
     }
 }
 
@@ -31,8 +33,13 @@ if (!localStorage.getItem('name')) {
     SetUserName();
 } else {
     let storedName = localStorage.getItem('name');
-    myHeading.textContent = 'Welcome, ' + storedName;
+    myHeading.innerHTML = 'Welcome, ' + storedName;
 }
 myButton.onclick = function () {
     SetUserName();
 }
+
+//Roster
+// function roster() {
+//     alert("Utah Jazz 2021-2022 Roster")
+// }

@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  width: 600px;
+  width: 1000px;
   margin: 0 auto;
   background-color: #f9a01b;
   padding: 0 20px 20px 20px;
@@ -59,4 +59,27 @@ a:active {
 
 .url {
   font-size: 0.5em;
+}
+
+.roster,
+a {
+  font-size: 0.5em;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* h3 {
+  display: flex;
+  justify-content: center;
+} */
+.team {
+  display: flex;
+  justify-content: center;
+}
+
+.coaching {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: auto;
 }
