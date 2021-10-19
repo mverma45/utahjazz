@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../CSS/styles.css" />
+    <link rel="stylesheet" href="../Fundamentals/css/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap"
       rel="stylesheet"
@@ -16,9 +16,13 @@
     <title>Fundamentals of HTML/CSS/JS</title>
   </head>
   <body>
-    <button>Change Name</button>
-    <button onclick="Instruct()">Instructions</button>
-    <article class="jnation">JazzNation</article>
+    <div class="form">
+      <button>Change Name</button>
+      <!-- <button onclick="Clear()">Clear</button> -->
+    </div>
+    <article class="jnation">
+      <span class="welcome">Welcome to</span> JazzNation
+    </article>
     <section id="roster">
       <a
         href="https://basketball.realgm.com/nba/teams/Utah-Jazz/29/Rosters/Current/2022"
@@ -26,7 +30,7 @@
         >Utah Jazz 2021-2022 Roster</a
       >
     </section>
-    <img src="../Images/jazzlogo.png" alt="Utah Jazz" />
+    <img src="../Fundamentals/images/jazzlogo2.png" alt="Utah Jazz" />
     <h2>Welcome, User</h2>
     <h3>Utah Jazz</h3>
     <section class="starting5">
@@ -60,7 +64,7 @@
         <li>C 21 Hassan Whiteside</li>
       </ul>
     </section>
-    <h3>Coaching Staff</h3>
+    <h3 class="staff">Coaching Staff</h3>
     <section class="coaching">
       <p>Head Coach: <strong>Quin Snyder</strong></p>
       <p>Assistant Coach:<strong>Alex Jensen</strong></p>
@@ -75,6 +79,7 @@
       <a href="https://www.utahjazz.com" target="_blank">Official Website</a>
       <script src="../Scripts/main.js"></script>
     </section>
+    <script src="../Fundamentals/js/main.js"></script>
   </body>
   <footer>
     <i class="fab fa-twitter">
