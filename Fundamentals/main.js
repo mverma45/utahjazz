@@ -1,13 +1,13 @@
-// let logo = document.querySelector('img');
+let logo = document.querySelector('img');
 
-// logo.onclick = function () {
-//     let mySrc = logo.getAttribute('src');
-//     if (mySrc === '../../jazzlogo2.png') {
-//         logo.setAttribute('src', '../Fundamentals/images/jazzlogo.png');
-//     } else {
-//         logo.setAttribute('src', '../images/jazzlogo.png')
-//     }
-// }
+logo.onclick = function () {
+    let mySrc = logo.getAttribute('src');
+    if (mySrc === '../images/jazzlogo2.png') {
+        logo.setAttribute('src', '../images/jazzlogo.png');
+    } else {
+        logo.setAttribute('src', '../images/jazzlogo.png')
+    }
+}
 
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h2');
