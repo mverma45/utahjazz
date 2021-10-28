@@ -5,6 +5,7 @@ html {
 }
 
 body {
+  /* font-size: 14px; */
   width: 1000px;
   margin: 0 auto;
   background-color: #f9a01b;
@@ -93,4 +94,32 @@ a {
   flex-direction: row;
   justify-content: flex-start;
   margin: auto;
+}
+
+.footer {
+  padding: 1em 1em 0 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.version {
+  font-size: 14px;
+}
+
+.manny {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#url {
+  padding: 0 1em 0 0;
+}
+
+/* Gradients */
+.gradient {
+  align-items: stretch;
+  margin: 1em 0;
+  height: 0.05em;
+  background: rgb(180, 92, 92);
 }
