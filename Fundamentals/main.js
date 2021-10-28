@@ -2,10 +2,10 @@ let logo = document.querySelector('img');
 
 logo.onclick = function () {
     let mySrc = logo.getAttribute('src');
-    if (mySrc === '../images/jazzlogo2.png') {
-        logo.setAttribute('src', '../images/jazzlogo.png');
+    if (mySrc === '../Fundamentals/images/jazzlogo.png') {
+        logo.setAttribute('src', '../Fundamentals/images/jazzlogo2.png');
     } else {
-        logo.setAttribute('src', '../images/jazzlogo.png')
+        logo.setAttribute('src', '../Fundamentals/images/jazzlogo.png')
     }
 }
 
