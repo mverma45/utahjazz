@@ -96,10 +96,6 @@ a {
   text-align: center;
 }
 
-/* .name {
-  padding
-} */
-
 .footer {
   padding: 1em 1em 0 1em;
   display: flex;
@@ -121,9 +117,14 @@ a {
 }
 
 /* Gradients */
-.gradient {
+.hr {
   align-items: stretch;
   margin: 1em 0;
-  height: 0.05em;
-  background: rgb(180, 92, 92);
+  /* padding: 0.25em 0 0 0; */
+  height: 1.11em;
+  line-height: 1em;
+  background: #ffd700;
+  font-style: italic;
+  color: #fff;
+  text-align: center;
 }
