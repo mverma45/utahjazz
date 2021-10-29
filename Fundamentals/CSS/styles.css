@@ -90,11 +90,15 @@ a {
 }
 
 .coaching {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  margin: auto;
+  display: block;
+  padding: 0.05em 3em 1em 1em;
+  margin: 2px;
+  text-align: center;
 }
+
+/* .name {
+  padding
+} */
 
 .footer {
   padding: 1em 1em 0 1em;
