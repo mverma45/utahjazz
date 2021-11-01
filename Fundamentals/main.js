@@ -2,10 +2,10 @@ let logo = document.querySelector('img');
 
 logo.onclick = function () {
     let mySrc = logo.getAttribute('src');
-    if (mySrc === '../Fundamentals/images/jazzlogo.png') {
-        logo.setAttribute('src', '../Fundamentals/images/jazzlogo2.png');
+    if (mySrc === "../Fundamentals/images/jazzlogo.png") {
+        logo.setAttribute('src', "../Fundamentals/images/jazzlogo2.png");
     } else {
-        logo.setAttribute('src', '../Fundamentals/images/jazzlogo.png')
+        logo.setAttribute('src', "../Fundamentals/images/jazzlogo.png");
     }
     // alert('it works')
 }
@@ -26,7 +26,8 @@ function SetUserName() {
     } 
     else {
         localStorage.setItem('name', myName);
-        myHeading.innerHTML = 'Welcome, ' + myName;
+        alert("Welcome to JazzNation, " + myName);
+        myHeading.innerHTML = 'Welcome to JazzNation, ' + myName;
     }
 }
 
