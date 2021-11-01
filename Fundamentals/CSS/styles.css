@@ -1,11 +1,10 @@
 html {
   background-color: #002b5c;
-  font-size: 2em;
+  font-size: 14px;
   font-family: "Open Sans", sans-serif;
 }
 
 body {
-  /* font-size: 14px; */
   width: 1000px;
   margin: 0 auto;
   background-color: #f9a01b;
@@ -14,10 +13,23 @@ body {
 }
 
 .jnation,
-.staff,
 .starting5,
 .bench {
+  font-size: 3em;
   text-align: center;
+}
+
+.staff {
+  font-size: 2em;
+  text-align: center;
+}
+.ujseason,
+.lineup {
+  font-size: 0.5em;
+}
+
+.benchwarmers {
+  font-size: 0.5em;
 }
 
 img {
@@ -70,8 +82,9 @@ a:active {
 }
 
 .roster,
+.dancers,
 a {
-  font-size: 0.5em;
+  /* font-size: 1em; */
   display: flex;
   justify-content: flex-end;
 }
@@ -104,7 +117,6 @@ a {
 }
 
 .manny {
-  font-size: 14px;
   font-weight: 700;
 }
 
@@ -113,16 +125,20 @@ a {
 }
 
 /* horizontal bar */
-.hr,
-.welcome {
+.hr {
+  font-size: 2.5em;
   align-items: stretch;
   margin: 1em 0;
-  height: 1.11em;
-  line-height: 1em;
+  height: 1.2em;
+  line-height: 1.1em;
   background-image: linear-gradient(red, yellow);
   font-style: italic;
   color: #fff;
   text-align: center;
+}
+
+.welcome {
+  background-image: linear-gradient(#002b5c, #00471b, #f9a01b);
 }
 
 .welcome2 {
