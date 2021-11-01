@@ -7,6 +7,7 @@ logo.onclick = function () {
     } else {
         logo.setAttribute('src', '../Fundamentals/images/jazzlogo.png')
     }
+    // alert('it works')
 }
 
 let myButton = document.querySelector('button');
