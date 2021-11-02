@@ -16,7 +16,28 @@ body {
 .starting5,
 .bench {
   font-size: 3em;
+
   text-align: center;
+}
+
+.form {
+  padding-top: 1em;
+}
+.staff {
+  font-size: 2em;
+  
+  text-align: center;
+}
+.ujseason {
+  font-size: 0.5em;
+}
+
+.lineup {
+  font-size: 0.4em;
+}
+
+.benchwarmers {
+  font-size: 0.4em;
 }
 
 .staff {
@@ -99,6 +120,7 @@ a {
 }
 
 .coaching {
+  font-size: 0.4em;
   display: block;
   padding: 0.05em 3em 1em 1em;
   margin: 2px;
