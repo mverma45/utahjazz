@@ -16,6 +16,7 @@ body {
 .starting5,
 .bench {
   font-size: 3em;
+
   text-align: center;
 }
 
@@ -24,6 +25,7 @@ body {
 }
 .staff {
   font-size: 2em;
+  
   text-align: center;
 }
 .ujseason {
@@ -36,6 +38,19 @@ body {
 
 .benchwarmers {
   font-size: 0.4em;
+}
+
+.staff {
+  font-size: 2em;
+  text-align: center;
+}
+.ujseason,
+.lineup {
+  font-size: 0.5em;
+}
+
+.benchwarmers {
+  font-size: 0.5em;
 }
 
 img {
