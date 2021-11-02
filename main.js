@@ -2,10 +2,10 @@ let logo = document.querySelector('img');
 
 logo.onclick = function () {
     let mySrc = logo.getAttribute('src');
-    if (mySrc === "../Fundamentals/images/jazzlogo.png") {
-        logo.setAttribute('src', "../Fundamentals/images/jazzlogo2.png");
+    if (mySrc === "../Utah_Jazz/images/jazzlogo.png") {
+        logo.setAttribute('src', "../Utah_Jazz/images/jazzlogo2.png");
     } else {
-        logo.setAttribute('src', "../Fundamentals/images/jazzlogo.png");
+        logo.setAttribute('src', "../Utah_Jazz/images/jazzlogo.png");
     }
     // alert('it works')
 }
@@ -13,11 +13,6 @@ logo.onclick = function () {
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h2');
 let jazzRoster = document.querySelector('h3');
-
-
-// function Clear() {
-//     document.getElementsByClassName("form").reset();
-// }
 
 function SetUserName() {
     let myName = prompt('Please enter your name?');
