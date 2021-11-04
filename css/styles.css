@@ -12,6 +12,16 @@ body {
   border: 5px solid #00471b;
 }
 
+.userNation {
+  padding-top: 2em;
+  font-weight: 300;
+}
+
+.enjoy {
+  font-style: normal;
+  font-weight: 400;
+}
+
 .jnation,
 .starting5,
 .bench {
