@@ -1,15 +1,21 @@
-let logo = document.querySelector('img');
+let jlogo = true;
+const logo = document.querySelector('#basketball')
 
 logo.onclick = function () {
-    let mySrc = logo.getAttribute('src');
-    if (mySrc === "../Utah_Jazz/images/jazzlogo.png") {
-        logo.setAttribute('src', "../Utah_Jazz/images/jazzlogo2.png");
-    } else {
-        logo.setAttribute('src', "../Utah_Jazz/images/jazzlogo.png");
-    }
-    // alert('it works')
-}
 
+    const basketball = jlogo ? "jazzlogo" : "jazzlogo2"
+    logo.setAttribute('src', `./images/${basketball}.png`);
+
+    jlogo = !jlogo
+    
+    let mySrc = logo.getAttribute('src');
+    if (mySrc === './images/jazzlogo.png') {
+        newImage.setAttribute('src', './images/jazzlogo2.png');
+    } else {
+        newImage.setAttribute('src', './images/jazzlogo.png')
+    }
+}
+    
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h2');
 let jazzRoster = document.querySelector('h3');
