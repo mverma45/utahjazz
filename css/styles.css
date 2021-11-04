@@ -12,6 +12,16 @@ body {
   border: 5px solid #00471b;
 }
 
+.userNation {
+  padding-top: 2em;
+  font-weight: 300;
+}
+
+.enjoy {
+  font-style: normal;
+  font-weight: 400;
+}
+
 .jnation,
 .starting5,
 .bench {
@@ -160,10 +170,11 @@ a {
 
 .welcome {
   background-image: linear-gradient(#002b5c, #00471b, #f9a01b);
+  color: #fff;
 }
 
 .welcome2 {
-  background: #00471b;
+  background-image: linear-gradient(#f9a01b, #002b5c, #00471b);
   /* margin: 0 0 0 0.25em; */
   color: #fff;
 }
