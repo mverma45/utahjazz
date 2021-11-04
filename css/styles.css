@@ -12,6 +12,10 @@ body {
   border: 5px solid #00471b;
 }
 
+.btn-success:hover {
+  transform: scale(1.1);
+}
+
 .userNation {
   padding-top: 2em;
   font-weight: 300;
@@ -60,6 +64,10 @@ body {
 
 .benchwarmers {
   font-size: 0.4em;
+}
+
+.logo:hover {
+  transform: scale(1.1);
 }
 
 img {
