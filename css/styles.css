@@ -32,9 +32,7 @@ body {
   font-weight: 400;
 }
 
-.jnation,
-.starting5,
-.bench {
+.jnation {
   font-size: 3em;
   text-align: center;
 }
@@ -42,23 +40,31 @@ body {
 .form {
   padding-top: 1em;
 }
-.staff {
-  display: flex;
-  flex-wrap: wrap;
-  /* font-size: 2em;
-  text-align: center; */
+
+.staff,
+.office {
+  display: block;
+  text-align: center;
+  /* top | right | bottom | left */
+  padding: 0 0 2em 0;
+}
+
+.hcoach,
+.acoaches,
+.trainers {
+text-align: center;
+padding: 0 0 0 2em;
 }
 
 .coaches,
-.aCoaches,
 .headCoach,
-.hCoach,
-.trainer,
-.trainers {
-  font-size: 0.875rem;
+.trainer {
+  font-size: 1.5rem;
   line-height: 1;
   margin-top: 0.1em;
   margin-bottom: 0.5rem;
+  padding: 0 0 0 2em;
+  text-decoration: underline;
 }
 .ujseason {
   font-size: 0.5em;
@@ -151,7 +157,8 @@ a {
 }
 
 .footer {
-  padding: 1em 1em 0 1em;
+  /* top | right | bottom | left */
+  padding: 1em 0 1em 1em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

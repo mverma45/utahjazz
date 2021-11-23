@@ -3,24 +3,24 @@ const logo = document.querySelector('#basketball')
 
 logo.onclick = function () {
 
-//     let basketball
+    let basketball
     
-//     if (basketball != this.querySelector) {
-//         document.querySelector('./images/jazzlogo.png')
-//     }
-//     else {
-//         document.querySelector('./images/jazzlogo2.png')
-//     }
-    const basketball = jlogo ? "jazzlogo" : "jazzlogo2"
+    if (basketball != this.querySelector) {
+        document.querySelector('./images/jazzlogo2.png')
+    }
+    else {
+        document.querySelector('./images/jazzlogo.png')
+    }
+    const basketball = jlogo ? "jazzlogo2" : "jazzlogo"
     logo.setAttribute('src', `./images/${basketball}.png`);
 
     jlogo = !jlogo
     
     let mySrc = logo.getAttribute('src');
-    if (mySrc === './images/jazzlogo.png') {
-        newImage.setAttribute('src', './images/jazzlogo2.png');
+    if (mySrc === './images/jazzlogo2.png') {
+        newImage.setAttribute('src', './images/jazzlogo.png');
     } else {
-        newImage.setAttribute('src', './images/jazzlogo.png')
+        newImage.setAttribute('src', './images/jazzlogo2.png')
     }
 }
     
