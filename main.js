@@ -3,14 +3,14 @@ const logo = document.querySelector('#basketball')
 
 logo.onclick = function () {
 
-//     let basketball
+    let basketball
     
-//     if (basketball != this.querySelector) {
-//         document.querySelector('./images/jazzlogo.png')
-//     }
-//     else {
-//         document.querySelector('./images/jazzlogo2.png')
-//     }
+    if (basketball != this.querySelector) {
+        document.querySelector('./images/jazzlogo.png')
+    }
+    else {
+        document.querySelector('./images/jazzlogo2.png')
+    }
     const basketball = jlogo ? "jazzlogo" : "jazzlogo2"
     logo.setAttribute('src', `./images/${basketball}.png`);
 
