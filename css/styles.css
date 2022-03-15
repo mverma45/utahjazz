@@ -7,7 +7,7 @@ html {
 body {
   width: 1000px;
   margin: 0 auto;
-  background-color: #f9a01b;
+  background-color: #f9a01a;
   padding: 0 20px 20px 20px;
   border: 5px solid #00471b;
 }
@@ -16,14 +16,12 @@ body {
   transform: scale(1.1);
 }
 
-
 .btn-success:hover {
   transform: scale(1.1);
 }
 
-
 .userNation {
-  padding-top: 2em;
+  padding-top: 2rem;
   font-weight: 300;
 }
 
@@ -33,12 +31,12 @@ body {
 }
 
 .jnation {
-  font-size: 3em;
+  font-size: 3rem;
   text-align: center;
 }
 
 .form {
-  padding-top: 1em;
+  padding-top: 1rem;
 }
 
 .staff,
@@ -46,14 +44,24 @@ body {
   display: block;
   text-align: center;
   /* top | right | bottom | left */
-  padding: 0 0 2em 0;
+  padding: 0 0 2rem 0;
+}
+
+.headCoach::after {
+  transform: scale(3);
+  transform-origin: left;
+  background-color: #000000;
+}
+
+.headCoach:hover {
+  color: #9c713f6e;
 }
 
 .hcoach,
 .acoaches,
 .trainers {
-text-align: center;
-padding: 0 0 0 2em;
+  text-align: center;
+  padding: 0 0 0 2rem;
 }
 
 .coaches,
@@ -61,21 +69,21 @@ padding: 0 0 0 2em;
 .trainer {
   font-size: 1.5rem;
   line-height: 1;
-  margin-top: 0.1em;
+  margin-top: 0.1rem;
   margin-bottom: 0.5rem;
-  padding: 0 0 0 2em;
+  padding: 0 0 0 2rem;
   text-decoration: underline;
 }
 .ujseason {
-  font-size: 0.5em;
+  font-size: 0.5rem;
 }
 
 .lineup {
-  font-size: 0.4em;
+  font-size: 0.4rem;
 }
 
 .benchwarmers {
-  font-size: 0.4em;
+  font-size: 0.4rem;
 }
 
 .logo:hover {
@@ -128,7 +136,7 @@ a:active {
 }
 
 .url {
-  font-size: 0.5em;
+  font-size: 0.5rem;
 }
 
 .roster,
@@ -149,22 +157,23 @@ a {
 }
 
 .coaching {
-  font-size: 0.4em;
+  font-size: 0.4rem;
   display: block;
-  padding: 0.05em 3em 1em 1em;
+  padding: 0.05rem 3rem 1rem 1rem;
   margin: 2px;
   text-align: center;
 }
 
 .footer {
   /* top | right | bottom | left */
-  padding: 1em 0 1em 1em;
+  padding: 1rem 0 1rem 1rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 .version {
+  text-align: center;
   font-size: 14px;
 }
 
@@ -173,16 +182,16 @@ a {
 }
 
 #url {
-  padding: 0 1em 0 0;
+  padding: 0 1rem 0 0;
 }
 
 /* horizontal bar */
 .hr {
-  font-size: 2.5em;
+  font-size: 2.5rem;
   align-items: stretch;
   margin: 1em 0;
   height: 1.2em;
-  line-height: 1.1em;
+  line-height: 1.1rem;
   background-image: linear-gradient(red, yellow);
   font-style: italic;
   color: #fff;
@@ -205,4 +214,62 @@ a {
 .ac {
   display: flex;
   flex-direction: row;
+}
+
+@media only screen and (max-width: 895px) {
+  .jnation,
+  .staff,
+  .headCoach,
+  .hcoach,
+  .coaches,
+  .acoaches,
+  li,
+  .trainer,
+  .trainers {
+    width: 750px;
+    text-align: center;
+    font-size: 1.25rem;
+  }
+  .roster,
+  .dancers,
+  .fab {
+    width: 750px;
+    font-size: 1.25rem;
+  }
+  .userNation,
+  .enjoy {
+    font-size: 1.25rem;
+  }
+
+  .manny {
+    font-size: 2rem;
+    font-weight: normal;
+  }
+
+  a {
+    justify-content: flex-start;
+  }
+
+  .logo img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .roster,
+  .dancers {
+    font-size: 2rem;
+    align-items: center;
+  }
+  .jnation {
+    font-size: 3rem;
+  }
+  .hr img {
+    display: block;
+    margin: 0, auto;
+  }
+
+  .far {
+    align-items: center;
+  }
 }
