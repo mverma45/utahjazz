@@ -13,7 +13,7 @@ body {
 }
 
 .userNation {
-  padding-top: 2rem;
+  padding-top: 7rem;
   font-weight: 300;
 }
 
@@ -36,7 +36,7 @@ body {
   display: block;
   text-align: center;
   /* top | right | bottom | left */
-  padding: 0 0 2rem 0;
+  padding: 0 0 1rem 0;
 }
 
 .headCoach::after {
@@ -62,6 +62,34 @@ body {
   padding: 0 0 0 2rem;
   text-decoration: underline;
 }
+
+#clarksonDunk img {
+  height: 10rem;
+  width: 20rem;
+  position: absolute;
+  left: 15rem;
+  padding-top: 1rem;
+  }
+
+  #swish img {
+    height: 10rem;
+    width: 20rem;
+    position: relative;
+    left: 5rem;
+    padding-top: 1rem;  
+  }
+
+  /* #nameJC {
+    background-image: url(../images/clarksonDunk.jpeg);
+    height: 10rem;
+    width: 20rem;
+    position: absolute;
+    left: 15rem;
+  }
+
+  #nameJC p {
+    color: #fff;
+  } */
 
 .ujseason {
   font-size: 0.5rem;
