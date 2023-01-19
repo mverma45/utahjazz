@@ -79,18 +79,6 @@ body {
     padding-top: 1rem;  
   }
 
-  /* #nameJC {
-    background-image: url(../images/clarksonDunk.jpeg);
-    height: 10rem;
-    width: 20rem;
-    position: absolute;
-    left: 15rem;
-  }
-
-  #nameJC p {
-    color: #fff;
-  } */
-
 .ujseason {
   font-size: 0.5rem;
 }
@@ -305,5 +293,9 @@ a {
 
   a {
     justify-content: flex-start;
+  }
+
+  #clarksonDunk, #swish {
+    display: none;
   }
 }
