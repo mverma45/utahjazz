@@ -383,10 +383,12 @@ a {
     justify-content: flex-start;
   }
 
-  #clarksonDunk, #swish {
-    display: flex;
-    width: 1200px;
-    justify-content: space-between;
-    
+  
+  @media only screen and (min-width: 1000px){
+    #clarksonDunk, #swish {
+      width: 1200px;
+      justify-content: space-between;
+      font-size: 15px;
+    }    
   }
 }
