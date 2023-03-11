@@ -69,7 +69,7 @@ body {
   position: absolute;
   left: 25rem;
   padding-top: 1rem;
-  }
+}
 
   #swish img {
     height: 10rem;
@@ -221,174 +221,53 @@ a {
   flex-direction: row;
 }
 
-@media only screen and (max-width: 650px) {
-
+@media only screen and (max-width: 1200px) {
   body {
-    width: 450px;
-    font-size: 15px;
+    width: 850px;
   }
-
-  .headCoach,
-  .hCoach,
-  .aCoaches,
-  .jnation,
-  .coaches,
-  .trainer,
-  .trainers {
-    width: 200px;
-    text-align: center;
-    font-size: 15px;
-  }
-
-  .hr {
-    font-size: 1.85rem;
-    margin: 1rem 0;
-    height: 2.2rem;
-    line-height: 1.1rem;
-    background-image: linear-gradient(red, yellow);
-    font-style: italic;
-    color: #fff;
-   }
-
+    .jnation {
+      font-size: 1.5rem;
+      text-align: center;
+    }
   
-   img {
-    width: 220px;
-    height: 150px;
-   }
+    #clarksonDunk img {
+      height: 5rem;
+      width: 10rem;
+      position: absolute;
+      left: 25rem;
+      padding-top: 1rem;
+      }
 
-   .headCoach {
-    gap: 15px;
-  }
-
-  .jnation {
-    margin-top: 15px;
-    margin-bottom: 20px;
-  }
-
-  .roster a,
-  .dancers a
-  /* .staff */
-  {
-    justify-content: flex-start;
-  }
-
-  .roster, .dancers{
-    display: flex;
-    justify-content: flex-start;
-  }
-
-  .version {
-    width: 500px;
-    font-size: 1rem;
-    text-align: center;
-  }
-
-  .userNation,
-  .enjoy {
-    display: none;
-  }
-
-  .manny p {
-    width: 300px;
-    padding-top: 85px;
-    font-size: 12px;
-    font-weight: 200;
-    text-align: center;
-  }
-
-  a {
-    justify-content: flex-start;
-  }
-
-  #clarksonDunk, #swish {
-    display: none;
-  }
+    #swish img {
+      height: 5rem;
+      width: 10rem;
+      position: relative;
+      left: 8rem;
+      padding-top: 1rem;
+      }
 }
-
-@media only screen and (min-width: 1300px){
-  body {
-    width: 1100px;
-    font-size: 15px;
+@media only screen and (max-width: 600px) {
+  body{
+    width: 450px;
   }
-
-  .headCoach,
-  .hCoach,
-  .aCoaches,
-  .jnation,
-  .coaches,
-  .trainer,
-  .trainers {
-    width: 1000px;
-    text-align: center;
-    font-size: 15px;
-  }
-
-  .hr {
-    font-size: 1.85rem;
-    margin: 1rem 0;
-    height: 2.2rem;
-    line-height: 1.1rem;
-    background-image: linear-gradient(red, yellow);
-    font-style: italic;
-    color: #fff;
-   }
-
-  
-   img {
-    width: 220px;
-    height: 150px;
-   }
-
-   .headCoach {
-    gap: 15px;
-  }
-
-  .jnation {
-    margin-top: 15px;
-    margin-bottom: 20px;
-  }
-
-  .roster a,
-  .dancers a
-  /* .staff */
-  {
-    justify-content: flex-start;
-  }
-
-  .roster, .dancers{
-    display: flex;
-    justify-content: flex-start;
-  }
-
-  .version {
-    width: 500px;
-    font-size: 1rem;
+.jnation {
+    font-size: 1.5rem;
     text-align: center;
   }
 
-  .userNation,
-  .enjoy {
-    display: none;
-  }
+ #clarksonDunk img {
+   height: 3rem;
+   width: 5rem;
+   position: absolute;
+   left: 10rem;
+   padding-top: 1rem;
+ }
 
-  .manny p {
-    width: 300px;
-    padding-top: 85px;
-    font-size: 12px;
-    font-weight: 200;
-    text-align: center;
-  }
-
-  a {
-    justify-content: flex-start;
-  }
-
-  
-  @media only screen and (min-width: 1000px){
-    #clarksonDunk, #swish {
-      width: 1200px;
-      justify-content: space-between;
-      font-size: 15px;
-    }    
-  }
+ #swish img {
+   height: 3rem;
+   width: 5rem;
+   position: relative;
+   left: 5rem;
+   padding-top: 1rem;
+ }
 }
