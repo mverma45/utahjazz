@@ -221,7 +221,7 @@ a {
   flex-direction: row;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1350px) {
   body {
     width: 850px;
   }
@@ -245,6 +245,15 @@ a {
       left: 8rem;
       padding-top: 1rem;
       }
+
+    #clarksonDunk img:hover{
+      transform: scale(1.5);
+    }
+    
+      #swish img:hover {
+      transform: scale(1.5);
+    }
+
 }
 @media only screen and (max-width: 600px) {
   body{
@@ -270,4 +279,13 @@ a {
    left: 5rem;
    padding-top: 1rem;
  }
+
+ #clarksonDunk img:hover {
+  transform: scale(1.75);
+  }
+
+#swish img:hover {
+  transform: scale(1.75);
+  }
+
 }
