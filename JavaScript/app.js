@@ -1,5 +1,8 @@
-// function greeting (name) {
-//     alert(`Hello, ${name}!`)
-//   }
+function greeting (name) {
+    alert(`Hello, ${name}!`)
+  }
    
-//   greeting('Basketball Fan')
+  greeting(``)
+  
+  const rotateLogo = document.querySelector('.logo');
+

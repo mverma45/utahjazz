@@ -12,6 +12,14 @@ body {
   border: 5px solid #00471b;
 }
 
+.roster {
+  margin: 2em 1em;
+}
+
+#team {
+  display: flex;
+  text-align: center;
+}
 .userNation {
   padding-top: 7rem;
   font-weight: 300;
@@ -25,42 +33,6 @@ body {
 .jnation {
   font-size: 3rem;
   text-align: center;
-}
-
-.form {
-  padding-top: 1rem;
-}
-
-.staff,
-.office {
-  display: block;
-  text-align: center;
-  /* top | right | bottom | left */
-  padding: 0 0 1rem 0;
-}
-
-.headCoach::after {
-  transform: scale(3);
-  transform-origin: left;
-  background-color: #000000;
-}
-
-.hcoach,
-.acoaches,
-.trainers {
-  text-align: center;
-  padding: 0 0 0 2rem;
-}
-
-.coaches,
-.headCoach,
-.trainer {
-  font-size: 1.5rem;
-  line-height: 1;
-  margin-top: 0.1rem;
-  margin-bottom: 0.5rem;
-  padding: 0 0 0 2rem;
-  text-decoration: underline;
 }
 
 #clarksonDunk img {
@@ -78,18 +50,6 @@ body {
     left: 8rem;
     padding-top: 1rem;  
   }
-
-.ujseason {
-  font-size: 0.5rem;
-}
-
-.lineup {
-  font-size: 0.4rem;
-}
-
-.benchwarmers {
-  font-size: 0.4rem;
-}
 
 .logo:hover {
   transform: scale(1.1);
@@ -144,7 +104,6 @@ a:active {
   font-size: 0.5rem;
 }
 
-.roster,
 .dancers
 a {
   font-size: 1em;
@@ -152,22 +111,9 @@ a {
   justify-content: flex-end;
 }
 
-/* h3 {
-  display: flex;
-  justify-content: center;
-} */
-
 .team {
   display: flex;
   justify-content: center;
-}
-
-.coaching {
-  font-size: 0.4rem;
-  display: block;
-  padding: 0.05rem 3rem 1rem 1rem;
-  margin: 2px;
-  text-align: center;
 }
 
 .footer {
@@ -212,13 +158,6 @@ a {
   background-image: linear-gradient(#f9a01b, #002b5c, #00471b);
   /* margin: 0 0 0 0.25em; */
   color: #fff;
-}
-
-/* coaching staff */
-.hc,
-.ac {
-  display: flex;
-  flex-direction: row;
 }
 
 @media only screen and (max-width: 1350px) {
